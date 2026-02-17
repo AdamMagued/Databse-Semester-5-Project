@@ -24,6 +24,12 @@ This project is a relational database implementation for a University Human Reso
 2.  Open and execute `schema.sql` to build the database structure and stored procedures.
 3.  Open and execute `seed_data.sql` to populate the tables with initial test data.
 4.  Execute specific stored procedures (e.g., `Replace_employee`) to test functionality.
+   
+For the Web Application Setup:
+
+1. Open the Web Application folder in Visual Studio.
+2. Update the connection string in 'Web.config' or 'appsettings.json' to point to your local SQL Server instance.
+3. Build and Run the project (IIS Express).
 
 ## Technologies
 * SQL Server (T-SQL)
